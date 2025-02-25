@@ -1,1 +1,15 @@
+PDF Interpreter Crew - Multi-Agent System for PDF Reading and Analyzing Financial Brokers Report
+Overview
+This Jupyter Notebook demonstrates how to build a multi-agent system using CrewAI to red PDF reports from financial brokers and analyze between all the content, the operations made on that specific date inputed. 
 
+Features
+Uses CrewAI, LangChain, and OpenAI models (GPT-3.5-Turbo or GPT-4-Turbo)
+Creates multiple AI agents that specializes each on a specific broker
+Defines tasks that agents collaborate on to read the PDF information
+Create a report for all the operations on both brokers
+
+
+
+If running locally, install dependencies using:
+
+pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29
